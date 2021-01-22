@@ -1,0 +1,146 @@
+
+body{
+    font-family: "Lato",sans-serif;
+}
+.container{
+    display: grid;
+    grid-template-columns: 1fr;
+}
+.logo-wrapper{
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 0;
+    width:50%;
+   
+}
+
+.nav{
+    display: flex;
+    justify-content: space-between;
+    width: 50%;
+    margin-left: 390px;
+    background-color: darkgrey;
+    
+}
+
+.nav-item a{
+    color: black;
+    text-decoration: none;
+    transition: color .05s;
+    font-weight: 500;
+}
+
+.nav-item:hover{
+    border-bottom: 2px solid rgb(216, 69, 69);
+}
+
+.top-img-wrapper{
+    position: relative;
+}
+
+.top-img-wrapper img{
+    width: 100%;
+    padding-top: 20px;
+}
+
+.img-text-wrapper{
+    position: absolute;
+  top: 300px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: bottom;
+  height: 100%;
+  text-align: center;
+  padding-left: 100px;
+  padding-right: 100px;
+  font-weight: 900;
+  font-size: 25px;
+  
+  
+}
+
+.subtitle{
+    color:whitesmoke;
+    background-color: gray;
+}
+
+.three-col-wrapper{
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin-left: 100px;
+    margin-right: 100px;
+
+}
+.video-title{
+    color:whitesmoke;
+    padding-left: 100px;
+    padding-right: 100px;
+    font-weight: 900;
+    font-size: 25px;
+    margin-top: 10px;
+    
+}
+/*.video-files{
+    position: relative;
+    padding-bottom:22.25%;
+    padding-top: 25px;
+    height: 0px;
+}*/
+.single-video{
+    position: relative;
+    padding-bottom:22.25%;
+    padding-top: 50px;
+    height: 80px;
+    margin-top: 10px;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+.single-video iframe{
+    position: absolute;
+    top:0;
+    bottom: 0;
+    left:0;
+    right: 0;
+    width: 80%;
+    height: 90%;
+}
+
+.text-wrapper{
+    
+    background-color: gray;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-top: 0;
+    margin-left: 0;
+    margin-right: 20px;
+}
+
+.single-audio{
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 0;
+    
+}
+
+.single-img{
+    position: relative;
+    padding-bottom:22.25%;
+    padding-top: 50px;
+    height: 110px;
+    margin-top: 10px;
+    padding-left: 100px;
+    padding-right: 100px;
+    
+}
+
+.single-img img{
+    position: absolute;
+    top:0;
+    bottom: 0;
+    left:0;
+    right: 0;
+    width: 95%;
+    height: 100%;
+}
